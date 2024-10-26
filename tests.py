@@ -13,10 +13,10 @@ class TestContrivedFunc(unittest.TestCase):
         contrived_func(20)  # a=True, b=True, c=False, d=False
 
     def test_case_4(self):
-        contrived_func(6)   # a=True, b=False, c=True, d=False
+        contrived_func(10)   # a=True, b=False, c=True, d=False
 
     def test_case_5(self):
-        contrived_func(3)   # a=False, b=True, c=True, d=False
+        contrived_func(7)   # a=False, b=True, c=True, d=False
 
     def test_case_6(self):
         contrived_func(2)   # a=False, b=False, c=True, d=False
@@ -25,7 +25,7 @@ class TestContrivedFunc(unittest.TestCase):
         contrived_func(-1)  # a=False, b=True, c=False, d=True
 
     def test_case_8(self):
-        contrived_func(0)   # a=False, b=False, c=False, d=False
+        contrived_func(3)   # a=False, b=False, c=False, d=False
 
 if __name__ == '__main__':
     unittest.main()
