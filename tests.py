@@ -36,13 +36,13 @@ class TestContrivedFunc(unittest.TestCase):
     def test_case_11(self):
         contrived_func(3)
 
-   def test_case_11(self):
+    def test_case_11(self):
         contrived_func(18)
 
-   def test_case_11(self):
+    def test_case_11(self):
         contrived_func(24)
 
-   def test_case_11(self):
+    def test_case_11(self):
         contrived_func(8)
 
 if __name__ == '__main__':
