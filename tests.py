@@ -25,7 +25,7 @@ class TestContrivedFunc(unittest.TestCase):
         contrived_func(22)
 
     def test_case_8(self):
-        contrived_func(25)
+        contrived_func(17)
 
 if __name__ == '__main__':
     unittest.main()
