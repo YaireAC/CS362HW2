@@ -2,7 +2,8 @@ import unittest
 from contrived_func import contrived_func
 
 class TestContrivedFunc(unittest.TestCase):
-   def test_case_11(self):
+
+    def test_case_11(self):
         contrived_func(11)
 
     def test_case_12(self):
